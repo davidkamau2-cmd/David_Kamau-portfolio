@@ -24,3 +24,15 @@ nav ul {
   padding: 0;
 }
 
+nav ul li {
+  margin: 0 1.2rem;
+}
+
+nav ul li a {
+  color: whitesmoke;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
