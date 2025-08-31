@@ -8,7 +8,7 @@ const quotes = [
 ];
 function showQuote( ) {
     const randomindex =Math.floor(Math.random() * quotes.length);
-    document.getElementById(quoteDisplay).textContent = quotes [randomindex];
+    document.getElementById("quoteDisplay").textContent = quotes [randomIndex];
 }
 
 document.getElementById("contactForm").addEventListener("submit", function(event) {
