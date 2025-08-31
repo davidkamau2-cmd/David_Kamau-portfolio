@@ -36,3 +36,13 @@ nav ul li a:hover {
   color: #ffd700;
 }
 
+header {
+  background: #1e1e1e;
+  color: #ffd700;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
