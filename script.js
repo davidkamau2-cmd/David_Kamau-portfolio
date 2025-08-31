@@ -7,6 +7,24 @@ const quotes = [
     "A programmer is just a tool that converts caffeine into code."
 ];
 function showQuote( ) {
-    const randomindex =Math.floor(Math.Random() * quotes.length);
+    const randomindex =Math.floor(Math.random() * quotes.length);
     document.getElementById(quoteDisplay).textContent = quotes [randomindex];
 }
+
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
+    const formMsg = document.getElementById("formMsg");
+
+    if (name === "" || email === "" || message === ""){
+        formMsg.textContent = "Please fill in all the fields!";
+        formMsg.style.color = "red"; 
+    } else {
+        formMsg.textContent = "Thank you, your message has been sent!";
+        formMsg.style.color = "green";
+        document.getElementById("contactForm").reset();
+    }
+});
