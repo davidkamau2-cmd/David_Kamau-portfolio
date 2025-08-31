@@ -16,4 +16,11 @@ nav{
   z-index: 1000;
 }
 
-ul
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
