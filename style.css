@@ -46,3 +46,17 @@ header {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
+h1, h2 {
+  margin-bottom: 1rem;
+  color: #ffd700;
+}
+
+section {
+  padding: 2.5 rem;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 15px;
+  background: #1e1e1e;
+  margin-bottom: 2rem;
+}
+
