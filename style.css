@@ -75,12 +75,36 @@ section {
 
 .project-card h3 {
   margin-top: 0;
-  color: #4169e1;
+  color: #d32c20fa;
 }
 
 .project-card :hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   border: 2px solid #ffd700;
+}
+
+#quotes {
+  background: #2c2c2c;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+#quotes button {
+  margin-top: 1 rem;
+  padding: 0.7rem 1.2rem;
+  background: #ffd700;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#quotes button:hover {
+  background: #4169e1;
+  color: whitesmoke;
 }
 
