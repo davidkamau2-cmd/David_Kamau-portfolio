@@ -123,3 +123,20 @@ input, textarea, button {
   font-size: 1 rem;
 }
 
+input:focus, textarea:focus {
+  border: 1px solid #ffd700;
+  outline: none; 
+}
+
+button {
+  background: #ffd700;
+  color: black;
+  border: none;
+  cursor: pointer ;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #4169e1;
+  color: white;
+
